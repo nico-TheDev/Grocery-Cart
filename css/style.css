@@ -12,6 +12,12 @@ html {
           box-sizing: border-box;
 }
 
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 80%;
+  }
+}
+
 body {
   font-family: 'Montserrat',sans-serif;
   line-height: 1.5;
@@ -20,6 +26,12 @@ body {
   background-size: cover;
   background-position: center;
   padding: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 3rem 1rem;
+  }
 }
 
 .title {
@@ -51,6 +63,12 @@ body {
           box-shadow: 0 0 1rem rgba(255, 255, 255, 0.2);
 }
 
+@media only screen and (max-width: 600px) {
+  .cart {
+    width: 100%;
+  }
+}
+
 .cart__notif {
   text-align: center;
   font-size: 1.4rem;
@@ -63,6 +81,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .cart__field {
+    width: 100%;
+  }
 }
 
 .cart__input {
@@ -78,6 +102,12 @@ body {
 
 .cart__input:focus {
   border-color: green;
+}
+
+@media only screen and (max-width: 600px) {
+  .cart__input {
+    padding: 0.5rem;
+  }
 }
 
 .cart__btn {
